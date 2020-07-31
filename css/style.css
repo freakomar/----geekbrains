@@ -54,6 +54,10 @@
    color: #c7b299; 
 }
 
+.header-logo:active {
+   color: #fff; 
+}
+
 .header-menu {
     display: flex;
     margin: 0 58px 0 0;
@@ -77,6 +81,9 @@
     color: #c7b299;
 }
 
+.header-menu-item:active {
+    color: #ffffff;
+}
 
 .header-cart {
     border: none;
@@ -88,6 +95,10 @@
 .header-cart:hover {
     background-color: #c7b29955;
     border-radius: 5px;
+}
+
+.header-cart:active {
+    fill: #c7b299;
 }
 
 .slider-form {
@@ -151,6 +162,10 @@
     fill: #d3c1ad;
 }
 
+.carousel-btn:active {
+    fill: #ffffff;
+}
+
 .corousel-content {
     display: flex;
     flex-direction: column;
@@ -204,6 +219,16 @@
     text-transform: uppercase;
 }
 
+.corousel-content-button:hover {
+    background-color: #99867555;
+    box-shadow: inset 0px -3px 0 0 #73635755;
+}
+
+.corousel-content-button:active {
+    background-color: #998675;
+    box-shadow: inset 0px -3px 0 0 #736357;
+}
+
 .carousel-pagination {
     width: 100%;
     display: flex;
@@ -223,6 +248,12 @@
 
 .pagination-a:hover {
     background-color: transparent;
+    border: 1px solid #ffffff;
+    transform: scale(1.5);
+}
+
+.pagination-a:active {
+    background-color: #ffffff7f;
     border: 1px solid #ffffff;
     transform: scale(1.5);
 }
