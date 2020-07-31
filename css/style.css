@@ -4,37 +4,36 @@
 }
 
 .max-width {
-    max-width: 1230px;
+    max-width: 1170px;
 }
 
 .slider {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    border: 1px solid #000;
+/*    justify-content: space-between;*/
     background-image: url(../img/slider-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #484642;
+    height: 1024px;
+    box-sizing: border-box;
 }
 
 .slider-header {
-    border: 1px solid #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1230px;
-    
+    width: 55vw;
+    margin: 40px 0 152px 0;
 }
 
 .header-logo {
-    border: 1px solid #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 181px;
+    width: 185px;
     text-decoration: none;
     color: #fff;
     margin: 0 auto 0 0;
@@ -51,10 +50,13 @@
     text-align: right;
 }
 
+.header-logo:hover {
+   color: #c7b299; 
+}
+
 .header-menu {
-    border: 1px solid #000;
     display: flex;
-    margin: 0 62px 0 0;
+    margin: 0 58px 0 0;
 }
 
 .header-menu-item {
@@ -64,7 +66,7 @@
     font-weight: 300;
     color: #ffffff;
     display: block;
-    margin: 0 30px 0 0;
+    margin: 0 28px 0 0;
 }
 
 .header-menu-item:last-child {
@@ -80,74 +82,147 @@
     border: none;
     background: none;
     fill: #ffffff;
-    margin: 0 28px 0 0;
+    margin: 0 17px 0 0;
 }
 
 .header-cart:hover {
-    background-color: #c7b29999;
+    background-color: #c7b29955;
     border-radius: 5px;
 }
 
+.slider-form {
+    display: flex;
+    align-items: center;
+    width: 28.5px;
+/*    position: relative;*/
+}
+
 .header-search {
-    width: 24px;
-    height: 24px;
-    background-color: #48464200;
+    width: 30px;
+    height: 28px;
+    visibility: hidden;
+}
+
+.header-search:hover {
+    visibility: visible;
+    width: 30px;
+    height: 28px;
+    background-color: #c7b29955;
     outline: none;
-    background-image: url(../img/icon-search.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 0 8px;
 }
 
 .header-search:focus {
-    width: 300px;
+    width: 200px;
     transition: width 1s ease-out;
-    background-position: right;
+    background-color: #c7b29955;
+}
+
+.header-search-label {
+    fill: #ffffff;
+    position: relative;
+    left: -26px;
 }
 
 .slider-carousel {
-    border: 1px solid #000;
     display: flex;
-    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 1920px;
+    justify-content: space-around;
+    height: 520px;
 }
 
-.carousel-btn-left {
-    
+.carousel-btn {
+    display: flex;
+    align-items: center;
+    fill: #ffffff7f;
+    margin: 0;
+}
+
+.carousel-btn:hover {
+    fill: #d3c1ad;
 }
 
 .corousel-content {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 180px;
 }
 
 .corousel-content-h2 {
-    
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 14px 0;
 }
 
 .corousel-content-h1 {
-    
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: 800;
+    text-align: center;
+    color: #ffffff;
+    line-height: 0.75;
+    margin: 0 0 24px 0;
 }
 
 .corousel-content-p {
-    
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #ffffff;
+    width: 562px;
+    text-align: center;
+    word-break: break-all;
+    margin: 0 0 46px 0;
 }
 
 .corousel-content-button {
-    
-}
-
-.carousel-btn-right {
-    
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px;
+    box-shadow: inset 0px -3px 0 0 #736357;
+    background-color: #998675;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 21px 38px;
+    text-transform: uppercase;
 }
 
 .carousel-pagination {
-    width: 100%
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto 0 43px 0;
 }
 
 .pagination-a {
     display: block;
-    
+    width: 7px;
+    height: 7px;
+    background-color: #ffffff7f;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid transparent;
 }
 
 .pagination-a:hover {
-    
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    transform: scale(1.5);
 }
