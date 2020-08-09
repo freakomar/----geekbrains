@@ -1017,3 +1017,62 @@
     line-height: 1.71;
     color: #c7b299;
 }
+
+.mobile {
+    min-height: 995px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfaf8;
+    min-height: 695px;
+}
+
+.mobile-main-img {
+    align-self: flex-end;
+}
+
+.mobile-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 34%;
+}
+
+.mobile-main-content-span {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.mobile-main-content-p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #8c8c8c;
+}
+
+.mobile-content-item {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #8c8c8c;
+    position: relative;
+}
+
+/*.mobile-content-summary {
+    position: absolute;
+}*/
+
+.mobile-bottom {
+    width: 100%;
+    min-height: 300px;
+}
