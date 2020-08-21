@@ -1325,3 +1325,238 @@ details > summary {
 .posts-pagination-btn:hover {
     filter: none;
 }
+
+.brands {
+    width: 100%;
+    min-height: 489px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #424245;
+}
+
+.brands-logo {
+    margin: 0 90px 0 0;
+}
+
+.brands-logo:last-child {
+    margin: 0;
+}
+
+.brands-logo:hover img {
+    filter: opacity(50%);
+}
+
+.brands-logo:active img {
+    filter: none;
+}
+
+.footer-content {
+    width: 100%;
+    min-height: 508px;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.footer-content-item {
+    margin: 0 40px 0 0;
+}
+
+/*.footer-content-item:hover .footer-item-a {
+    color: #c7b299;    
+}
+
+.footer-content-item:hover .footer-item-a:after {
+    border-left-color: #c7b299;
+}
+
+.footer-content-item:hover .footer-logo {
+    color: #c7b299
+}*/
+
+.footer-logo {
+    margin: 0 0 30px 0;
+}
+
+.footer-item-a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    color: #d1d1d1;
+    position: relative;
+}
+
+.footer-item-a:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 85px;
+    border: 4px solid transparent;
+    border-left: 5px solid #d1d1d1;
+}
+
+.footer-item-a:hover {
+    color: #c7b299;    
+}
+
+.footer-item-a:hover::after {
+    border-left-color: #c7b299;
+}
+
+.footer-item-a:active {
+    color: #d1d1d1;
+}
+
+.footer-item-a:hover:active {
+    border-left-color: #d1d1d1;
+}
+
+.footer-item-p {
+    width: 270px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    color: #555555;
+    margin: 0;
+    word-break: break-all;
+}
+
+.footer-item-p-wax {
+    margin: 0 0 30px 0;
+}
+
+.footer-item-span {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    margin: 20px 0 30px 0;
+}
+
+.footer-item-div:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ffffff33;
+    padding: 5px 0;
+}
+
+.footer-item-div:last-child::after {
+    display: none;
+}
+
+.footer-item-div {
+    margin: 0 0 10px 0;
+}
+
+.footer-item-div:hover .footer-item-p {
+    color: #c7b299;
+}
+
+.footer-item-div:hover .footer-div-span {
+    color: #ffffff;
+}
+
+.footer-item-div:hover .twitter-span {
+    color: #00bff388;
+}
+
+.footer-item-div:hover .twitter-a {
+    color: #fae5cc;
+}
+
+.footer-item-div:hover .twitter-a:hover {
+    color: #ffffff;
+}
+
+.footer-item-div:hover .twitter-a:active {
+    color: #959595;
+}
+
+.twitter-span {
+    color: #00bff3;
+}
+
+.twitter-a {
+    color: #959595;
+    text-decoration: none;
+}
+
+.footer-widget {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    justify-content: space-between;
+}
+
+.footer-widget-img {
+    margin: 0 0 10px 0;
+}
+
+.footer-div-span {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.67;
+    color: #363636;
+}
+
+.copyright {
+    width: 100%;
+    min-height: 111px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 100px;
+}
+
+.copyright-block {
+    display: flex;
+}
+
+.copyright-a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.54;
+    color: #555555;
+    margin: 0 10px 0 0;
+}
+
+.copyright-a:after {
+    content: "";
+    height: 13px;
+    width: 0px;
+    border-right: 1px solid #555555;
+    padding: 0 5px;
+    filter: opacity(0.5);
+}
+
+.copyright-a:last-child::after {
+    display: none;
+}
+
+.copyright-span {
+    color: #959595;
+}
+
+.copyright-a:hover,
+.copyright-a:hover span {
+    color: #c7b299;
+}
+
+/*.copyright-a:hover::after {
+    border-color: #c7b299;
+}*/
