@@ -294,6 +294,10 @@
     margin: 0 auto;
 }
 
+.max-width {
+    max-width: 1170px;
+}
+
 .slider {
     display: flex;
     flex-direction: column;
@@ -313,7 +317,6 @@
     align-items: center;
     justify-content: space-between;
     width: 55vw;
-    max-width: 1170px;
     min-width: 960px;
     margin: 40px 0 152px 0;
 }
@@ -1576,7 +1579,7 @@ details > summary {
 @media (max-width: 576px) {
     .container {
         width: 100%;
-        min-width: 480px;
+        min-width: 470px;
     }
     .slider {
         min-height: 100px;
