@@ -636,6 +636,7 @@
     font-size: 22px;
     font-weight: 600;
     color: #555555;
+    text-align: center;
 }
 
 .feature-item-p {
@@ -781,6 +782,7 @@
     font-size: 30px;
     font-weight: 600;
     color: #555555;
+    text-align: center;
 }
 
 .projects-p {
@@ -999,6 +1001,7 @@
     font-size: 30px;
     font-weight: 500;
     color: #ffffff;
+    text-align: center;
 }
 
 .video-p {
@@ -1030,18 +1033,23 @@
     justify-content: center;
     align-items: center;
     background-color: #fbfaf8;
+    background-image: url(../img/iPhone.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 30%;
+    background-position-y: bottom;
     min-height: 695px;
 }
 
-.mobile-main-img {
+/*.mobile-main-img {
     align-self: flex-end;
-}
+}*/
 
 .mobile-main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 34%;
+    margin: 0 0 0 25%;
 }
 
 .mobile-main-content-span {
@@ -1049,6 +1057,7 @@
     font-size: 30px;
     font-weight: 600;
     color: #555555;
+    text-align: center;
 }
 
 .mobile-main-content-p {
@@ -1104,7 +1113,7 @@ details > summary {
     justify-content: space-between;
     align-items: center;
     padding: 0 26.5%;
-    
+    box-sizing: border-box;
 }
 
 .mobile-bottom-item {
@@ -1560,3 +1569,118 @@ details > summary {
 /*.copyright-a:hover::after {
     border-color: #c7b299;
 }*/
+
+@media (max-width: 605px) {
+    .container {
+        width: 100%;
+        min-width: 370px;
+    }
+    .slider {
+        min-height: 100px;
+    }
+    .slider-carousel {
+        display: none;
+    }
+    .carousel-pagination {
+        display: none;
+    }
+    .features {
+        flex-wrap: wrap;
+    }
+    .feature-item:last-child {
+        margin: 5px 10px 5px 0;
+    }
+    .feature-item {
+        width: 40%;
+        min-width: 200px;
+        margin: 5px 10px 5px 0;
+    }    
+    .ideas {
+        display: none;
+    }
+    .projects {
+        min-height: 230px;
+        padding: 40px 0;
+    }
+    .projects-p {
+        width: 95%;
+    }
+    .projects-menu {
+        display: none;
+    }
+    .projects-examples {
+        display: none;
+    }
+    .projects-btn {
+        display: none;
+    }
+    .video-p {
+        width: 95%
+    }
+    .mobile {
+        min-height: 500px;
+    }
+    .mobile-main {
+        padding: 40px 0 0 0;
+        background-image: url(../img/iPhone-mobile.jpg);
+        background-position-x: 10%;
+        display: block;
+        min-height: 525px;
+    }
+    .mobile-main-content {
+        width: 95%;
+        margin: 0 0 0 5%;
+    }
+    .mobile-main-content-p {
+        margin: 16px 0 15px 0;
+    }
+    .mobile-content-item {
+        width: 65%;
+        left: 30%;
+        font-size: 10px;
+        margin: 0 0 0 5px;
+    }
+    .mobile-content-summary:before {
+        font-size: 11px;
+        width: 16px;
+        height: 16px;
+        line-height: 1.3;
+        top: 3px;
+        left: 3px;
+    }
+    .mobile-bottom {
+        display: none;
+    }
+    .posts {
+        padding: 40px 0 0 0;
+    }
+    .posts-item {
+        margin: 0;
+    }
+    .posts-p {
+        width: 95%;
+        margin: 10px 0;
+    }
+    
+    .posts-pagination {
+        display: none;
+    }
+    .brands {
+        min-height: 300px;
+        flex-wrap: wrap;
+    }
+    .brands-logo {
+        margin: 0 20px 0 0;
+    }
+    .brands img{
+        width: 100px;
+    }
+    .footer-content {
+        display: none;
+    }
+    .copyright {
+        flex-wrap: wrap;
+        padding: 0;
+        align-content: space-evenly;
+    }
+}
